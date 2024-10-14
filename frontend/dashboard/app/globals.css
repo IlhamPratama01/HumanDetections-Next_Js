@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: rgb(255, 255, 255);
+  background:rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.video {
+  width: auto; /* Mengisi penuh card */
+  height: auto; /* Tinggi menyesuaikan dengan rasio */
+  aspect-ratio: 16/9; /* Rasio aspek untuk video widescreen */
+  object-fit: cover; /* Memastikan video mengisi area */
+  border-radius: 8px; /* Sudut melengkung pada video */
+}
+
